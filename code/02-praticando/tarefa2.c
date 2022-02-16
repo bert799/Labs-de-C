@@ -6,15 +6,15 @@
 #include <stdio.h>
 
 int main() {
-    int s = 0;
+    double s = 0;
     int i;
 
     i = 1;
     while (i <= 10) {
-        s += i / 2;
+        s += i / 2.0;
         i++;
     }
-
+    printf("%lf \n", s);
     // TODO: corrija o código acima e use printf para
     // mostrar a metade da soma de 1 a 10
 

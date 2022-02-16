@@ -1,0 +1,12 @@
+ escreva um número 
+ escreva um outro número 
+O número 4 é múltiplo de 2 
+ escreva um número 
+ escreva um outro número 
+O número 3 não é múltiplo de 2 
+ escreva um número 
+ escreva um outro número 
+Erro, segundo número é zero. digite um número válido 
+ escreva um número 
+ escreva um outro número 
+Terminando 

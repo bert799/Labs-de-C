@@ -25,7 +25,9 @@ int main(int argc, char *argv[]) {
 
     for (int x=0; x< image.row; x++){
         for (int y=0; y<image.col; y++){
-            image.matrix[x][y] = process_pixel(image.matrix[x][y]);
+            int limiar;
+            limiar = 5;
+            image.matrix[x][y] = process_pixel(image.matrix[x][y], limiar);
         }
     }
 

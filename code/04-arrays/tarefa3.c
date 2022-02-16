@@ -9,6 +9,41 @@
 /* TODO: implemente sua função conta_a aqui */
 
 
+// int conta_a(char arr[]){
+//     int counter = 0;
+//     // int i = 0;
+//     _Bool end = 0;
+//     for(int i =0; i < 100; i++) {
+// 		if (arr[i] == 'a') {
+// 			counter++;
+// 		}
+// 		if (arr[i] == '\0'){
+//             break;
+//         }
+// 	}
+//     printf("%d",counter);
+//     return counter;
+// }
+
+
+
+#define STRING_LEN 100
+int conta_a(char arr[]){
+    int counter = 0;
+    int i = 0;
+    _Bool end = 0;
+    while(end == 0) {
+		if (arr[i] == 'a') {
+			counter++;
+		}
+		if (arr[i] == '\0'){
+            end = 1;
+        }
+        i++;
+	}
+    return counter;
+}
+
 int main() {
     
     assertEquals("String \"abc\"", conta_a("abc"), 1);
