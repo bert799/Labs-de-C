@@ -6,7 +6,7 @@ double avg(long vec[100], int n){
     for(int i=0; i < n; i++){
         soma += vec[i];
     }
-    media = soma/2.0;
+    media = soma/n;
     return media;
 }
 
